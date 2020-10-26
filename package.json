@@ -20,6 +20,7 @@
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^6.1.0",
     "cross-env": "^7.0.2",
+    "dotenv-webpack": "^4.0.0",
     "eslint": "^7.9.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",
@@ -47,9 +48,11 @@
     "@material-ui/styles": "^4.10.0",
     "clsx": "^1.1.1",
     "core-js": "^3.3.3",
+    "its-a-date": "^1.2.20",
     "lodash-es": "^4.17.15",
     "luxon": "^1.25.0",
     "prop-types": "^15.7.2",
+    "query-string": "^6.13.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.1",
@@ -59,7 +62,10 @@
     "redux-query-interface-superagent": "^3.4.2",
     "redux-query-react": "^3.4.2",
     "regenerator-runtime": "^0.13.3",
+    "remote-redux-devtools": "^0.5.16",
+    "reselect": "^4.0.0",
     "use-click-outside": "^2.0.0",
+    "use-query-params": "^1.1.8",
     "webext-redux": "^2.1.7"
   }
 }

@@ -6,7 +6,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import AuthenticatedRoute from '@containers/User/components/AuthenticatedRoute';
 import Dashboard from '@containers/Dashboard';
 import Authentication from '@containers/User/components/Authentication';
-import withApplicationSetup from '@containers/Application/with-Application-setup';
+import withApplicationSetup from '@containers/Application/withApplicationSetup';
 
 const useStyles = makeStyles(() => ({
   '@global': {

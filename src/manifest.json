@@ -26,6 +26,6 @@
     "128": "assets/img/icon-128x128.png"
   },
   "permissions": ["contextMenus","storage", "cookies", "*://*.yocale.com/", "tabs"],
-  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'; connect-src ws://localhost:*/",
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'; connect-src ws: https:;",
   "web_accessible_resources": ["assets/img/*"]
 }

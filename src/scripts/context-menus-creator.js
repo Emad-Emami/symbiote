@@ -8,6 +8,7 @@ function onBookAppointmentClickHandler(object /* , tab */) {
     if (isValidEmail) return console.log(selectionText, 'is email address');
     const dateTime = dateTimeParser(selectionText);
     if (dateTime) return console.log(dateTime, 'is valid date');
+    return console.log(null);
   }
 }
 

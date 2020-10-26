@@ -3,6 +3,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 const path = require('path');
 const ExtensionReloader = require('webpack-extension-reloader');
 const ManifestVersionSyncPlugin = require('webpack-manifest-version-sync-plugin');
+const Dotenv = require('dotenv-webpack');
 
 module.exports = {
   entry: {
@@ -54,6 +55,7 @@ module.exports = {
     ],
   },
   plugins: [
+    new Dotenv(),
     new HTMLPlugin({
       chunks: ['options'],
       filename: 'options.html',
